@@ -24,6 +24,5 @@ Event handling in JavaScript
 Creating dynamic elements
 Structuring a small web application
 Improving UI/UX design basics
-🚀 Live Demo
 
-👉 https://hassandakroub.github.io/To-Do-List/
+🚀 Live Demo: https://hassandakroub.github.io/To-Do-List/
