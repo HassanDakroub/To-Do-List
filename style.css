@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* Header */
+.header {
+  background-color: #2f3e46;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Input */
+input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+/* Add button */
+.addBtn {
+  width: 25%;
+  padding: 10px;
+  background: #52796f;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.addBtn:hover {
+  background: #354f52;
+}
+
+/* List container */
+ul {
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  background: white;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* List item */
+ul li {
+  list-style: none;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  font-size: 16px;
+  color: #333;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  background: #f1f3f5;
+}
+
+/* Edit button */
+.edit {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background: #495057;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  background: #c92a2a;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: #a4161a;
+}
+
+/* Text */
+ul li span {
+  margin-left: 5px;
+}
